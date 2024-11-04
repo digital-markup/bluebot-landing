@@ -11,7 +11,7 @@ const addCustomerLead = async (customer: Customer) => {
         });
         return {
             status: 200,
-            message: "Lead added successfully",
+            message: "Registered successfully",
             reference: reference.id,
         }
     } catch (error) {
